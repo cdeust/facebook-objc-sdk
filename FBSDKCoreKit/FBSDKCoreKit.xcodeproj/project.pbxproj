@@ -44,6 +44,7 @@
 		0384CED0208E606A0013D404 /* FBSDKAccessTokenExpirer.m in Sources */ = {isa = PBXBuildFile; fileRef = 033429B120894D4700C94913 /* FBSDKAccessTokenExpirer.m */; };
 		0384CED1208E606B0013D404 /* FBSDKAccessTokenExpirer.m in Sources */ = {isa = PBXBuildFile; fileRef = 033429B120894D4700C94913 /* FBSDKAccessTokenExpirer.m */; };
 		2A3DA4161CB4C0F600339BD4 /* FBSDKAppLinkUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DA4151CB4C0F600339BD4 /* FBSDKAppLinkUtilityTests.m */; };
+		2DB9E5A322535CFC000D9F39 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB3E8F21BB010100096874 /* Bolts.framework */; };
 		4AF47CF31F42468E00A57A67 /* FBSDKDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF47CF11F42468D00A57A67 /* FBSDKDeviceUtilities.m */; };
 		4AF47CF41F42468E00A57A67 /* FBSDKDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF47CF11F42468D00A57A67 /* FBSDKDeviceUtilities.m */; };
 		4AF47CF51F42468E00A57A67 /* FBSDKDeviceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF47CF21F42468D00A57A67 /* FBSDKDeviceUtilities.h */; };
@@ -1270,6 +1271,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB9E5A322535CFC000D9F39 /* Bolts.framework in Frameworks */,
 				C4513901202CBF1F0063275D /* WebKit.framework in Frameworks */,
 				9894BFFB1B73D8B300FBA6DB /* SafariServices.framework in Frameworks */,
 			);
@@ -2420,7 +2422,7 @@
 		9D26973E1A5DF40700143BFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					9D2697461A5DF40700143BFC = {
@@ -2439,10 +2441,11 @@
 			};
 			buildConfigurationList = 9D2697411A5DF40700143BFC /* Build configuration list for PBXProject "FBSDKCoreKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9D26973D1A5DF40700143BFC;
 			productRefGroup = 9D2697481A5DF40700143BFC /* Products */;
@@ -3151,6 +3154,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 814AC8861D1B552600D61E6C /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -3168,6 +3172,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 814AC8871D1B552600D61E6C /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
