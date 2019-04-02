@@ -9,7 +9,7 @@
 	url = https://github.com/facebook/Tweaks.git
 [submodule "Carthage/Checkouts/ocmock"]
 	path = Carthage/Checkouts/ocmock
-	url = https://github.com/erikdoe/ocmock.git
+	url = https://github.com/cdeust/ocmock.git
 [submodule "Carthage/Checkouts/xctool"]
 	path = Carthage/Checkouts/xctool
 	url = https://github.com/facebook/xctool.git
